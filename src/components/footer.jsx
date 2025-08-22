@@ -2,6 +2,7 @@ import {
    Truck, 
   Phone, Mail, MapPin
 } from 'lucide-react';
+import { assets } from '../assets';
 
 function Footer({ navigateTo }) {
 
@@ -17,7 +18,7 @@ function Footer({ navigateTo }) {
         {/* Company Info */}
         <div>
           <div className="flex items-center space-x-2 mb-4">
-            <img src="/logo.png" alt="TS-Logo" className="w-10 h-10" />
+            <img src={assets.logo} alt="TS-Logo" className="w-10 h-10" />
             <span className="text-indigo-400">Logistics</span>
           </div>
           <p className="text-sm">Your trusted partner for express and cargo services worldwide. Committed to reliability and speed.</p>
