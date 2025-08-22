@@ -3,6 +3,7 @@ import {
   Menu, X, 
 } from 'lucide-react';
 import React from 'react';
+import { assets } from '../assets';
 
 function Header({ isMenuOpen, setIsMenuOpen, navigateTo }) { // <-- Add navigateTo here
   const toggleMenu = () => {
@@ -20,7 +21,7 @@ function Header({ isMenuOpen, setIsMenuOpen, navigateTo }) { // <-- Add navigate
       <div className="w-full flex justify-between items-center px-4 md:px-8">
         {/* Logo */}
         <div className="flex items-center space-x-2">
-          <img src="/logo.png" alt="Logo" className="h-15 w-auto" />
+          <img src= {assets.logo} alt="Logo" className="h-15 w-auto" />
           <span className="text-2xl font-bold text-gray-900"><span className="text-indigo-900">Logistics</span></span>
         </div>
 
