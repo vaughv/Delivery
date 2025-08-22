@@ -4,7 +4,7 @@ import tailwindcss from '@tailwindcss/vite'
 
 
 // https://vite.dev/config/
-export default defineConfig
-  base: 'github.com/vaughv/Delivery',
-  plugins: [react(),tailwindcss()]
+export default defineConfig({ // Added parentheses here, ensure it's a function call
+  base: '/Delivery/', // Corrected base path
+  plugins: [react(), tailwindcss()]
 })
