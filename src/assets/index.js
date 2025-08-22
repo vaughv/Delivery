@@ -8,7 +8,7 @@ import delhivery from './DELHIVERY.png';
 import tnt from './tnt.png';
 import ups from './ups.png';
 import gati from './gati.png';
-
+import logo from './logo.png';
 // other assets can be imported similarly if needed
 import mail from './mail.webp';
 import linkdin from './linkdin.webp';
@@ -26,5 +26,6 @@ export const assets = {
     gati,
     mail,
     linkdin,
-    vaibhav
+    vaibhav,
+    logo
 };
